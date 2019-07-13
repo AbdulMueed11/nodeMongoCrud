@@ -1,0 +1,21 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "node mongo crud",
+  "main": "route.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mainServer.js",
+    "dev": "nodemon mainServer.js"
+  },
+  "author": "Moeed",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
+  }
+}
